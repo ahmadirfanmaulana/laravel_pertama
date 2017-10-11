@@ -15,4 +15,9 @@ class DataSiswaController extends Controller
       $new->alamat = "Subang";
       $new->save();
     }
+
+    public function edit($id)
+    {
+      return view('tampil',compact('id'));
+    }
 }

@@ -16,3 +16,4 @@ Route::get('/', function () {
 });
 
 Route::get('/tambah', 'DataSiswaController@tambah');
+Route::get('/edit/{id}', 'DataSiswaController@edit');
